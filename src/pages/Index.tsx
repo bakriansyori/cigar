@@ -78,7 +78,7 @@ const Index = () => {
               Tradisi & Keahlian
             </h2>
             <div className="w-16 h-px bg-cigar-gold/40 mx-auto mb-8" />
-            <p className="text-cigar-cream/60 text-lg leading-relaxed font-body">Kamika didirikan dengan satu visi: menghadirkan cerutu terbaik dunia kepada para penikmat di Indonesia. Setiap cerutu dipilih langsung dari perkebunan terbaik di Indonesia — digulung dengan tangan oleh pengrajin berpengalaman yang telah mewarisi keahlian turun-temurun.</p>
+            <p className="text-cigar-cream/60 text-lg leading-relaxed font-body">Adwaya Prana didirikan dengan satu visi: menghadirkan cerutu terbaik dunia kepada para penikmat di Indonesia. Setiap cerutu dipilih langsung dari perkebunan terbaik di Indonesia — digulung dengan tangan oleh pengrajin berpengalaman yang telah mewarisi keahlian turun-temurun.</p>
           </motion.div>
         </div>
       </section>
