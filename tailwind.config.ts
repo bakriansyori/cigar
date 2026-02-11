@@ -61,6 +61,9 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        "cigar-dark": "hsl(var(--cigar-dark))",
+        "cigar-gold": "hsl(var(--cigar-gold))",
+        "cigar-cream": "hsl(var(--cigar-cream))",
       },
       borderRadius: {
         lg: "var(--radius)",

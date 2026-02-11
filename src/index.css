@@ -38,6 +38,10 @@ All colors MUST be HSL.
 
     --radius: 0.5rem;
 
+    --cigar-dark: 15 50% 15%;
+    --cigar-gold: 43 65% 52%;
+    --cigar-cream: 35 33% 93%;
+
     --sidebar-background: 0 0% 98%;
 
     --sidebar-foreground: 240 5.3% 26.1%;
