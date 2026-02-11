@@ -18,12 +18,12 @@ const Index = () => {
   const featured = products.slice(0, 3);
 
   return (
-    <div className="bg-gradient-to-b from-cigar-dark via-cigar-dark to-cigar-gold/10 min-h-screen">
+    <div className="bg-cigar-dark min-h-screen">
       <Navbar />
 
       {/* Hero */}
       <section className="relative flex items-center justify-center min-h-screen overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-cigar-dark via-cigar-dark/90 to-cigar-gold/20" />
+        <div className="absolute inset-0 bg-gradient-to-b from-cigar-dark via-cigar-dark/90 to-cigar-dark" />
         <div className="absolute inset-0 opacity-10 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-cigar-gold/30 to-transparent" />
 
         <div className="relative z-10 text-center px-6 max-w-3xl mx-auto">
@@ -155,7 +155,7 @@ const Index = () => {
       </section>
 
       {/* Produk Unggulan */}
-      <section className="py-24 px-6 bg-gradient-to-b from-cigar-dark/50 to-cigar-gold/15">
+      <section className="py-24 px-6">
         <div className="container mx-auto max-w-5xl">
           <motion.div
             initial="hidden"
