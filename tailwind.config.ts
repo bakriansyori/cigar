@@ -12,6 +12,10 @@ export default {
         "2xl": "1400px",
       },
     },
+    fontFamily: {
+      serif: ["'Playfair Display'", "serif"],
+      body: ["'Lora'", "serif"],
+    },
     extend: {
       colors: {
         border: "hsl(var(--border))",
