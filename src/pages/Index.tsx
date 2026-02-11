@@ -81,13 +81,7 @@ const Index = () => {
               Tradisi & Keahlian
             </h2>
             <div className="w-16 h-px bg-cigar-gold/40 mx-auto mb-8" />
-            <p className="text-cigar-cream/60 text-lg leading-relaxed font-body">
-              Casa Dorada didirikan dengan satu visi: menghadirkan cerutu terbaik
-              dunia kepada para penikmat di Indonesia. Setiap cerutu kami dipilih
-              langsung dari perkebunan terbaik di Kuba, Honduras, Nikaragua, dan
-              Dominika — digulung dengan tangan oleh pengrajin berpengalaman yang
-              telah mewarisi keahlian turun-temurun.
-            </p>
+            <p className="text-cigar-cream/60 text-lg leading-relaxed font-body">Pilar didirikan dengan satu visi: menghadirkan cerutu terbaik dunia kepada para penikmat di Indonesia. Setiap cerutu kami dipilih langsung dari perkebunan terbaik di Jawa Tengah, Indonesia — digulung dengan tangan oleh pengrajin berpengalaman yang telah mewarisi keahlian turun-temurun.</p>
           </motion.div>
         </div>
       </section>
