@@ -155,7 +155,7 @@ const Index = () => {
       </section>
 
       {/* Produk Unggulan */}
-      <section className="py-24 px-6 bg-gradient-to-b from-transparent to-cigar-dark">
+      <section className="py-24 px-6 bg-gradient-to-b from-cigar-dark/50 to-cigar-gold/15">
         <div className="container mx-auto max-w-5xl">
           <motion.div
             initial="hidden"
