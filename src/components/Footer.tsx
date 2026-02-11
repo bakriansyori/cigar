@@ -41,7 +41,7 @@ const Footer = () => {
 
         <div className="mt-10 pt-6 border-t border-cigar-gold/10 text-center">
           <p className="text-cigar-cream/40 text-xs tracking-wider font-body">
-            © {new Date().getFullYear()} Casa Dorada. Semua hak dilindungi.
+            © {new Date().getFullYear()} Adwaya Prana. Semua hak dilindungi.
           </p>
         </div>
       </div>
