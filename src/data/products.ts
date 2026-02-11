@@ -11,11 +11,11 @@ export interface Product {
 export const products: Product[] = [
   {
     id: "1",
-    name: "El Dorado Reserve",
-    description: "Cerutu premium dengan cita rasa kayu manis dan cokelat hitam yang kaya.",
-    origin: "Kuba",
-    strength: "Medium-Full",
-    price: "Rp 450.000",
+    name: "Pilar Gold Exclusive Perla",
+    description: "Cerutu premium dengan cita rasa woody, earthy dan spicy dengan warna cokelat hitam yang maskulin.",
+    origin: "Havana",
+    strength: "Medium",
+    price: "Rp 1.499.000",
     image: "/placeholder.svg",
   },
   {
