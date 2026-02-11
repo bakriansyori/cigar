@@ -46,10 +46,7 @@ const Index = () => {
               Seni dalam{" "}
               <span className="text-cigar-gold italic">Setiap Gulungan</span>
             </h1>
-            <p className="text-cigar-cream/60 text-lg md:text-xl font-body leading-relaxed mb-10 max-w-xl mx-auto">
-              Rasakan kemewahan cerutu pilihan dari seluruh dunia, dipilih dengan
-              cermat untuk para penikmat sejati.
-            </p>
+            <p className="text-cigar-cream/60 text-lg md:text-xl font-body leading-relaxed mb-10 max-w-xl mx-auto">Rasakan kemewahan cerutu pilihan seluruh dunia, dipilih dengan cermat untuk para penikmat sejati.</p>
             <Link to="/products" className="inline-block border-2 border-cigar-gold text-cigar-gold px-10 py-4 text-sm tracking-widest uppercase hover:bg-cigar-gold hover:text-cigar-dark transition-all duration-300 font-body">
               Lihat Koleksi
             </Link>
@@ -81,7 +78,7 @@ const Index = () => {
               Tradisi & Keahlian
             </h2>
             <div className="w-16 h-px bg-cigar-gold/40 mx-auto mb-8" />
-            <p className="text-cigar-cream/60 text-lg leading-relaxed font-body">Pilar didirikan dengan satu visi: menghadirkan cerutu terbaik dunia kepada para penikmat di Indonesia. Setiap cerutu kami dipilih langsung dari perkebunan terbaik di Jawa Tengah, Indonesia — digulung dengan tangan oleh pengrajin berpengalaman yang telah mewarisi keahlian turun-temurun.</p>
+            <p className="text-cigar-cream/60 text-lg leading-relaxed font-body">Kamika didirikan dengan satu visi: menghadirkan cerutu terbaik dunia kepada para penikmat di Indonesia. Setiap cerutu dipilih langsung dari perkebunan terbaik di Indonesia — digulung dengan tangan oleh pengrajin berpengalaman yang telah mewarisi keahlian turun-temurun.</p>
           </motion.div>
         </div>
       </section>

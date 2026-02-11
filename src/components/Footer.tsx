@@ -1,15 +1,11 @@
 import { Link } from "react-router-dom";
-
 const Footer = () => {
-  return (
-    <footer className="bg-cigar-dark border-t border-cigar-gold/20">
+  return <footer className="bg-cigar-dark border-t border-cigar-gold/20">
       <div className="container mx-auto px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Brand */}
           <div>
-            <h3 className="font-serif text-2xl tracking-widest text-cigar-gold mb-4">
-              CASA DORADA
-            </h3>
+            <h3 className="font-serif text-2xl tracking-widest text-cigar-gold mb-4">KAMIKA</h3>
             <p className="text-cigar-cream/60 text-sm leading-relaxed font-body">
               Menghadirkan cerutu pilihan terbaik dari seluruh dunia, untuk para penikmat sejati.
             </p>
@@ -21,16 +17,10 @@ const Footer = () => {
               Navigasi
             </h4>
             <div className="space-y-2">
-              <Link
-                to="/"
-                className="block text-cigar-cream/60 hover:text-cigar-gold text-sm transition-colors font-body"
-              >
+              <Link to="/" className="block text-cigar-cream/60 hover:text-cigar-gold text-sm transition-colors font-body">
                 Beranda
               </Link>
-              <Link
-                to="/products"
-                className="block text-cigar-cream/60 hover:text-cigar-gold text-sm transition-colors font-body"
-              >
+              <Link to="/products" className="block text-cigar-cream/60 hover:text-cigar-gold text-sm transition-colors font-body">
                 Koleksi
               </Link>
             </div>
@@ -42,8 +32,8 @@ const Footer = () => {
               Hubungi Kami
             </h4>
             <div className="space-y-2 text-cigar-cream/60 text-sm font-body">
-              <p>info@casadorada.id</p>
-              <p>+62 812 3456 7890</p>
+              <p>email : pranaadwaya@gmail.com</p>
+              <p>Whatsapp : +62 812 8709 8907</p>
               <p>Jakarta, Indonesia</p>
             </div>
           </div>
@@ -55,8 +45,6 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
