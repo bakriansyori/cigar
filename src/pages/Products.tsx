@@ -1,7 +1,8 @@
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
+import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { products } from "@/data/products";
+import { products, Product } from "@/data/products";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -13,6 +14,8 @@ const fadeUp = {
 };
 
 const Products = () => {
+  const [hoveredProduct, setHoveredProduct] = useState<Product | null>(null);
+
   return (
     <div className="bg-cigar-dark min-h-screen">
       <Navbar />
@@ -50,13 +53,15 @@ const Products = () => {
                 viewport={{ once: true, margin: "-30px" }}
                 variants={fadeUp}
                 custom={i}
-                className="group border border-cigar-gold/10 hover:border-cigar-gold/30 transition-all duration-300"
+                className="group relative border border-cigar-gold/10 hover:border-cigar-gold/30 transition-all duration-300 cursor-pointer"
+                onMouseEnter={() => setHoveredProduct(product)}
+                onMouseLeave={() => setHoveredProduct(null)}
               >
                 <div className="aspect-[3/4] bg-cigar-dark/80 flex items-center justify-center overflow-hidden p-4">
                   <img
                     src={product.image}
                     alt={product.name}
-                    className="w-full h-full object-contain opacity-60 group-hover:opacity-80 transition-opacity duration-300"
+                    className="w-full h-full object-contain opacity-60 group-hover:opacity-90 group-hover:scale-110 transition-all duration-500"
                   />
                 </div>
                 <div className="p-5">
@@ -80,6 +85,41 @@ const Products = () => {
                     </p>
                   </div>
                 </div>
+
+                {/* Hover overlay with full description */}
+                <AnimatePresence>
+                  {hoveredProduct?.id === product.id && (
+                    <motion.div
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      exit={{ opacity: 0 }}
+                      transition={{ duration: 0.25 }}
+                      className="absolute inset-0 z-10 bg-cigar-dark/95 border border-cigar-gold/30 flex flex-col overflow-y-auto"
+                    >
+                      <div className="flex-shrink-0 aspect-[4/3] flex items-center justify-center overflow-hidden p-6">
+                        <img
+                          src={product.image}
+                          alt={product.name}
+                          className="w-full h-full object-contain"
+                        />
+                      </div>
+                      <div className="p-5 flex-1">
+                        <p className="text-cigar-gold/60 text-xs tracking-wider uppercase font-body mb-1">
+                          {product.origin} · {product.strength}
+                        </p>
+                        <h3 className="font-serif text-lg text-cigar-cream mb-3">
+                          {product.name}
+                        </h3>
+                        <p className="text-cigar-cream/70 text-sm font-body leading-relaxed mb-4">
+                          {product.description}
+                        </p>
+                        <p className="text-cigar-gold font-serif text-lg">
+                          {product.price}
+                        </p>
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
               </motion.div>
             ))}
           </div>
