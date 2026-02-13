@@ -56,7 +56,7 @@ export const products: Product[] = [
   },
   {
     id: "6",
-    name: "BIN Sakera Piramides",
+    name: "Sakera Piramides",
     description: "Piramide premium dengan karakter tembakau matang dan aroma khas Kuba, hadir dalam ukuran 160mm dengan ring 54. Dikemas secara istimewa dalam tube pelindung untuk menjaga kesegaran aromanya, koleksi ini tersaji rapi dalam kotak eksklusif yang berisi 3 batang cerutu pilihan.",
     origin: "Havana",
     strength: "Medium to Full",
@@ -65,7 +65,7 @@ export const products: Product[] = [
   },
   {
     id: "7",
-    name: "BIN Classy Cigar",
+    name: "Classy Cigar",
     description: "Classy Cigar Parejo; harmoni aroma tembakau Kuba dalam ukuran 124mm dan ring 50 yang prestisius. Tersaji sempurna dalam kemasan kotak eksklusif berisi 3 tube, menjamin kualitas dan aroma tetap terjaga hingga ke tangan Anda.",
     origin: "Havana",
     strength: "Medium",
