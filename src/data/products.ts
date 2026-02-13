@@ -70,7 +70,7 @@ export const products: Product[] = [
     origin: "Havana",
     strength: "Medium",
     price: "Rp 699.000",
-    image: "/placeholder.svg",
+    image: "/images/BIN_Classy_Cigar.webp",
   },
   {
     id: "8",
@@ -79,7 +79,7 @@ export const products: Product[] = [
     origin: "Havana",
     strength: "Medium",
     price: "Rp 699.000",
-    image: "/placeholder.svg",
+    image: "/images/Gran_cigarro.webp",
   },
   {
     id: "9",
@@ -88,7 +88,7 @@ export const products: Product[] = [
     origin: "Havana",
     strength: "Medium",
     price: "Rp 550.000",
-    image: "/placeholder.svg",
+    image: "/images/The_Ambassador.webp",
   },
   {
     id: "10",
@@ -97,7 +97,7 @@ export const products: Product[] = [
     origin: "Havana",
     strength: "Medium-Full",
     price: "Rp 550.000",
-    image: "/placeholder.svg",
+    image: "/images/Don_Agusto.webp",
   },
   {
     id: "11",
@@ -106,6 +106,6 @@ export const products: Product[] = [
     origin: "Havana",
     strength: "Medium-Full",
     price: "Contact us for special price",
-    image: "/placeholder.svg",
+    image: "/images/Exclusive_Gift.webp",
   },
 ];
