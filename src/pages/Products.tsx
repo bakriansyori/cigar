@@ -52,11 +52,11 @@ const Products = () => {
                 custom={i}
                 className="group border border-cigar-gold/10 hover:border-cigar-gold/30 transition-all duration-300"
               >
-                <div className="aspect-square bg-cigar-dark/80 flex items-center justify-center overflow-hidden">
+                <div className="aspect-[3/4] bg-cigar-dark/80 flex items-center justify-center overflow-hidden p-4">
                   <img
                     src={product.image}
                     alt={product.name}
-                    className="w-full h-full object-cover opacity-60 group-hover:opacity-80 transition-opacity duration-300"
+                    className="w-full h-full object-contain opacity-60 group-hover:opacity-80 transition-opacity duration-300"
                   />
                 </div>
                 <div className="p-5">
