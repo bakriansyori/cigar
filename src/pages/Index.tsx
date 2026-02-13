@@ -114,7 +114,7 @@ const Index = () => {
           }, {
             icon: Star,
             title: "Rasa Autentik",
-            desc: "Profil rasa khas yang tak tertandingi."
+            desc: "Profil rasa khas yang terjaga dan tak tertandingi."
           }].map((item, i) => <motion.div key={item.title} initial="hidden" whileInView="visible" viewport={{
             once: true,
             margin: "-50px"
