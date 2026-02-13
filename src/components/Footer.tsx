@@ -7,7 +7,7 @@ const Footer = () => {
           <div>
             <h3 className="font-serif text-2xl tracking-widest text-cigar-gold mb-4">ADWAYA PRANA</h3>
             <p className="text-cigar-cream/60 text-sm leading-relaxed font-body">
-              Menghadirkan cerutu pilihan terbaik dari seluruh dunia, untuk para penikmat sejati.
+              Menghadirkan cerutu pilihan terbaik, untuk para penikmat sejati.
             </p>
           </div>
 
