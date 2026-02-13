@@ -16,7 +16,7 @@ export const products: Product[] = [
     origin: "Havana",
     strength: "Medium",
     price: "Rp 1.499.000",
-    image: "/placeholder.svg",
+    image: "/images/Pilar_Gold_Exclusive_Perla.webp",
   },
   {
     id: "2",
@@ -25,7 +25,7 @@ export const products: Product[] = [
     origin: "Havana",
     strength: "Medium",
     price: "Rp 1.699.000",
-    image: "/placeholder.svg",
+    image: "/images/Pilar_Gold_Exclusive_Mareva.webp",
   },
   {
     id: "3",
@@ -34,7 +34,7 @@ export const products: Product[] = [
     origin: "Havana",
     strength: "Medium",
     price: "Rp 2.499.000",
-    image: "/placeholder.svg",
+    image: "/images/Pilar_Gold_Exclusive_GrandCorona.webp",
   },
   {
     id: "4",
@@ -43,7 +43,7 @@ export const products: Product[] = [
     origin: "Havana",
     strength: "Mild to Medium",
     price: "Rp 249.000",
-    image: "/placeholder.svg",
+    image: "/images/Pilar_Panatella_Gold.webp",
   },
   {
     id: "5",
@@ -52,7 +52,7 @@ export const products: Product[] = [
     origin: "Havana",
     strength: "Mild to Medium",
     price: "Rp 289.000",
-    image: "/placeholder.svg",
+    image: "/images/Pilar_Panatella_Silver.webp",
   },
   {
     id: "6",
@@ -61,7 +61,7 @@ export const products: Product[] = [
     origin: "Havana",
     strength: "Medium to Full",
     price: "Rp 899.000",
-    image: "/placeholder.svg",
+    image: "/images/BIN_Sakera_Piramides.webp",
   },
   {
     id: "7",
