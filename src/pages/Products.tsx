@@ -3,6 +3,7 @@ import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { products, Product } from "@/data/products";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -15,6 +16,7 @@ const fadeUp = {
 
 const Products = () => {
   const [hoveredProduct, setHoveredProduct] = useState<Product | null>(null);
+  const { t } = useLanguage();
 
   return (
     <div className="bg-cigar-dark min-h-screen">
@@ -28,15 +30,14 @@ const Products = () => {
           transition={{ duration: 0.6 }}
         >
           <p className="text-cigar-gold tracking-[0.3em] text-xs uppercase mb-4 font-body">
-            Koleksi Lengkap
+            {t("products.label")}
           </p>
           <h1 className="font-serif text-4xl md:text-5xl text-cigar-cream mb-4">
-            Koleksi Kami
+            {t("products.title")}
           </h1>
           <div className="w-16 h-px bg-cigar-gold/40 mx-auto mb-6" />
           <p className="text-cigar-cream/60 font-body max-w-lg mx-auto">
-            Temukan cerutu pilihan terbaik dari berbagai penjuru dunia, masing-masing
-            dengan karakter dan cita rasa yang unik.
+            {t("products.subtitle")}
           </p>
         </motion.div>
       </section>
