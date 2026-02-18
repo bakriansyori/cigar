@@ -16,7 +16,7 @@ const fadeUp = {
 
 const Products = () => {
   const [hoveredProduct, setHoveredProduct] = useState<Product | null>(null);
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
 
   return (
     <div className="bg-cigar-dark min-h-screen">
@@ -61,7 +61,7 @@ const Products = () => {
                 <div className="aspect-[3/4] bg-cigar-dark/80 flex items-center justify-center overflow-hidden p-4">
                   <img
                     src={product.image}
-                    alt={product.name}
+                    alt={product.name[language]}
                     className="w-full h-full object-contain opacity-60 group-hover:opacity-90 group-hover:scale-110 transition-all duration-500"
                   />
                 </div>
@@ -75,10 +75,10 @@ const Products = () => {
                     </span>
                   </div>
                   <h3 className="font-serif text-lg text-cigar-cream mb-2">
-                    {product.name}
+                    {product.name[language]}
                   </h3>
                   <p className="text-cigar-cream/50 text-sm font-body mb-4 line-clamp-2">
-                    {product.description}
+                    {product.description[language]}
                   </p>
                   <div className="flex items-center justify-between">
                     <p className="text-cigar-gold font-serif text-lg">
@@ -100,7 +100,7 @@ const Products = () => {
                       <div className="flex-shrink-0 aspect-[4/3] flex items-center justify-center overflow-hidden p-6">
                         <img
                           src={product.image}
-                          alt={product.name}
+                          alt={product.name[language]}
                           className="w-full h-full object-contain"
                         />
                       </div>
@@ -109,10 +109,10 @@ const Products = () => {
                           {product.origin} · {product.strength}
                         </p>
                         <h3 className="font-serif text-lg text-cigar-cream mb-3">
-                          {product.name}
+                          {product.name[language]}
                         </h3>
                         <p className="text-cigar-cream/70 text-sm font-body leading-relaxed mb-4">
-                          {product.description}
+                          {product.description[language]}
                         </p>
                         <p className="text-cigar-gold font-serif text-lg">
                           {product.price}
