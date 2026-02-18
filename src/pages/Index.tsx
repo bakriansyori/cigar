@@ -17,7 +17,7 @@ const fadeUp = {
 
 const Index = () => {
   const featured = products.slice(0, 3);
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
 
   return (
     <div className="bg-cigar-dark min-h-screen">
@@ -115,14 +115,14 @@ const Index = () => {
             {featured.map((product, i) => (
               <motion.div key={product.id} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} variants={fadeUp} custom={i + 1} className="group border border-cigar-gold/10 hover:border-cigar-gold/30 transition-all duration-300">
                 <div className="aspect-[4/3] bg-cigar-dark/80 flex items-center justify-center overflow-hidden">
-                  <img src={product.image} alt={product.name} className="w-full h-full object-cover opacity-60 group-hover:opacity-80 transition-opacity" />
+                  <img src={product.image} alt={product.name[language]} className="w-full h-full object-cover opacity-60 group-hover:opacity-80 transition-opacity" />
                 </div>
                 <div className="p-6">
                   <p className="text-cigar-gold/60 text-xs tracking-wider uppercase mb-1 font-body">
                     {product.origin}
                   </p>
-                  <h3 className="font-serif text-xl text-cigar-cream mb-2">{product.name}</h3>
-                  <p className="text-cigar-cream/50 text-sm font-body mb-4 line-clamp-2">{product.description}</p>
+                  <h3 className="font-serif text-xl text-cigar-cream mb-2">{product.name[language]}</h3>
+                  <p className="text-cigar-cream/50 text-sm font-body mb-4 line-clamp-2">{product.description[language]}</p>
                   <p className="text-cigar-gold font-serif text-lg">{product.price}</p>
                 </div>
               </motion.div>
