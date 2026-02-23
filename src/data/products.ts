@@ -109,6 +109,23 @@ export const products: Product[] = [
   {
     id: "6",
     name: {
+      id: "Don Juan",
+      en: "Don Juan",
+      ar: "",
+    },
+    description: {
+      id: "Parejo klasik, cerutu ini memiliki Ring 40 yang pas dan nyaman di jemari, serta panjang 103 mm yang ideal untuk sesi singkat yang intens. Dibuat dari perpaduan Full Havana Tobacco dan dikemas eksklusif dalam kotak kayu berisi 5 batang untuk menjaga kesegaran rasa otentik Kuba tetap terjaga hingga hisapan terakhir.",
+      en: "",
+      ar: "",
+    },
+    origin: "Havana",
+    strength: "Medium to Full",
+    price: "Rp 169.000",
+    image: "/images/DonJuan.webp",
+  },
+  {
+    id: "7",
+    name: {
       id: "Sakera Piramides",
       en: "Sakera Piramides",
       ar: "ساكيرا بيراميدس",
@@ -120,11 +137,11 @@ export const products: Product[] = [
     },
     origin: "Havana",
     strength: "Medium to Full",
-    price: "Rp 899.000",
+    price: "Rp 729.000/pack (3 tubes)",
     image: "/images/BIN_Sakera_Piramides.webp",
   },
   {
-    id: "7",
+    id: "8",
     name: {
       id: "Classy Cigar",
       en: "Classy Cigar",
@@ -137,11 +154,11 @@ export const products: Product[] = [
     },
     origin: "Havana",
     strength: "Medium",
-    price: "Rp 699.000",
+    price: "Rp 539.000/pack (3 tubes)",
     image: "/images/BIN_Classy_Cigar.webp",
   },
   {
-    id: "8",
+    id: "9",
     name: {
       id: "Gran Cigarro",
       en: "Gran Cigarro",
@@ -154,11 +171,11 @@ export const products: Product[] = [
     },
     origin: "Havana",
     strength: "Medium",
-    price: "Rp 699.000",
+    price: "Rp 519.000/pack (3 tubes)",
     image: "/images/Gran_cigarro.webp",
   },
   {
-    id: "9",
+    id: "10",
     name: {
       id: "The Ambassador",
       en: "The Ambassador",
@@ -171,11 +188,11 @@ export const products: Product[] = [
     },
     origin: "Havana",
     strength: "Medium",
-    price: "Rp 550.000",
+    price: "Rp 580.000/pack (3 tubes)",
     image: "/images/The_Ambassador.webp",
   },
   {
-    id: "10",
+    id: "11",
     name: {
       id: "Don Agusto",
       en: "Don Agusto",
@@ -188,11 +205,11 @@ export const products: Product[] = [
     },
     origin: "Havana",
     strength: "Medium-Full",
-    price: "Rp 550.000",
+    price: "Rp 639.000",
     image: "/images/Don_Agusto.webp",
   },
   {
-    id: "11",
+    id: "12",
     name: {
       id: "Exclusive Gift",
       en: "Exclusive Gift",
