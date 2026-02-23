@@ -120,7 +120,7 @@ export const products: Product[] = [
     },
     origin: "Havana",
     strength: "Medium to Full",
-    price: "Rp 169.000",
+    price: "Rp 169.000/pack (5 cigars)",
     image: "/images/DonJuan.webp",
   },
   {
