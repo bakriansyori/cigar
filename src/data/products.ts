@@ -111,12 +111,12 @@ export const products: Product[] = [
     name: {
       id: "Don Juan",
       en: "Don Juan",
-      ar: "",
+      ar: "دون خوان",
     },
     description: {
       id: "Parejo klasik, cerutu ini memiliki Ring 40 yang pas dan nyaman di jemari, serta panjang 103 mm yang ideal untuk sesi singkat yang intens. Dibuat dari perpaduan Full Havana Tobacco dan dikemas eksklusif dalam kotak kayu berisi 5 batang untuk menjaga kesegaran rasa otentik Kuba tetap terjaga hingga hisapan terakhir.",
-      en: "",
-      ar: "",
+      en: "A classic Parejo cigar with a ring gauge of 40 that fits comfortably in the fingers, and a length of 103mm ideal for short yet intense sessions. Crafted from a blend of Full Havana Tobacco and exclusively packaged in a wooden box of 5 cigars to preserve the authentic Cuban flavor until the very last draw.",
+      ar: "سيجار باريخو كلاسيكي بحلقة 40 يتناسب بشكل مريح بين الأصابع، وبطول 103 ملم مثالي للجلسات القصيرة والمكثفة. مصنوع من مزيج تبغ هافانا الكامل ومعبأ حصريًا في علبة خشبية تحتوي على 5 سيجارات للحفاظ على النكهة الكوبية الأصيلة حتى آخر نفخة.",
     },
     origin: "Havana",
     strength: "Medium to Full",
