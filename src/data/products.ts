@@ -154,7 +154,7 @@ export const products: Product[] = [
     },
     origin: "Havana",
     strength: "Medium",
-    price: "Rp 539.000/pack (3 tubes)",
+    price: "Rp 469.000/pack (3 tubes)",
     image: "/images/BIN_Classy_Cigar.webp",
   },
   {
@@ -171,7 +171,7 @@ export const products: Product[] = [
     },
     origin: "Havana",
     strength: "Medium",
-    price: "Rp 519.000/pack (3 tubes)",
+    price: "Rp 439.000/pack (3 tubes)",
     image: "/images/Gran_cigarro.webp",
   },
   {
@@ -188,7 +188,7 @@ export const products: Product[] = [
     },
     origin: "Havana",
     strength: "Medium",
-    price: "Rp 580.000/pack (3 tubes)",
+    price: "Rp 589.000/pack (3 tubes)",
     image: "/images/The_Ambassador.webp",
   },
   {
