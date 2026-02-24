@@ -26,8 +26,12 @@ jobs:
       - run: npm install
       - run: npm run build
 
+      - name: SPA fallback for GitHub Pages
+        run: |
+          cp ./dist/index.html ./dist/404.html
+    
       - name: Add CNAME
-        run: echo "cigar.adwayaprana.com" > ./dist/CNAME
+        run: echo "cigarworld.adwayaprana.com" > ./dist/CNAME
 
       - name: Disable Jekyll
         run: touch ./dist/.nojekyll
