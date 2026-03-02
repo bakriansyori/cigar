@@ -4,6 +4,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { products, Product } from "@/data/products";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { Dialog, DialogContent, DialogTitle, DialogDescription } from "@/components/ui/dialog";
+import { X } from "lucide-react";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
