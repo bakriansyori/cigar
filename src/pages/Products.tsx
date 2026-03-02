@@ -4,6 +4,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { products, Product } from "@/data/products";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { Dialog, DialogContent, DialogTitle, DialogDescription } from "@/components/ui/dialog";
+import { X } from "lucide-react";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -16,6 +18,7 @@ const fadeUp = {
 
 const Products = () => {
   const [hoveredProduct, setHoveredProduct] = useState<Product | null>(null);
+  const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
   const { t, language } = useLanguage();
 
   return (
@@ -57,6 +60,7 @@ const Products = () => {
                 className="group relative border border-cigar-gold/10 hover:border-cigar-gold/30 transition-all duration-300 cursor-pointer"
                 onMouseEnter={() => setHoveredProduct(product)}
                 onMouseLeave={() => setHoveredProduct(null)}
+                onClick={() => setSelectedProduct(product)}
               >
                 <div className="aspect-[3/4] bg-cigar-dark/80 flex items-center justify-center overflow-hidden p-4">
                   <img
@@ -126,6 +130,39 @@ const Products = () => {
           </div>
         </div>
       </section>
+
+      {/* Product Detail Dialog */}
+      <Dialog open={!!selectedProduct} onOpenChange={(open) => !open && setSelectedProduct(null)}>
+        <DialogContent className="bg-cigar-dark border-cigar-gold/20 max-w-2xl p-0 overflow-hidden">
+          <DialogTitle className="sr-only">{selectedProduct?.name[language]}</DialogTitle>
+          <DialogDescription className="sr-only">{selectedProduct?.description[language]}</DialogDescription>
+          {selectedProduct && (
+            <div className="flex flex-col">
+              <div className="aspect-[4/3] bg-cigar-dark/90 flex items-center justify-center p-8">
+                <img
+                  src={selectedProduct.image}
+                  alt={selectedProduct.name[language]}
+                  className="w-full h-full object-contain"
+                />
+              </div>
+              <div className="p-6 space-y-3">
+                <p className="text-cigar-gold/60 text-xs tracking-wider uppercase font-body">
+                  {selectedProduct.origin} · {selectedProduct.strength}
+                </p>
+                <h3 className="font-serif text-2xl text-cigar-cream">
+                  {selectedProduct.name[language]}
+                </h3>
+                <p className="text-cigar-cream/70 text-sm font-body leading-relaxed">
+                  {selectedProduct.description[language]}
+                </p>
+                <p className="text-cigar-gold font-serif text-xl pt-2">
+                  {selectedProduct.price}
+                </p>
+              </div>
+            </div>
+          )}
+        </DialogContent>
+      </Dialog>
 
       <Footer />
     </div>
