@@ -133,7 +133,7 @@ const Products = () => {
 
       {/* Product Detail Dialog */}
       <Dialog open={!!selectedProduct} onOpenChange={(open) => !open && setSelectedProduct(null)}>
-        <DialogContent className="bg-cigar-dark border-cigar-gold/20 max-w-2xl p-0 overflow-hidden">
+        <DialogContent className="bg-cigar-dark border-cigar-gold/20 max-w-2xl p-0 max-h-[90vh] overflow-y-auto">
           <DialogTitle className="sr-only">{selectedProduct?.name[language]}</DialogTitle>
           <DialogDescription className="sr-only">{selectedProduct?.description[language]}</DialogDescription>
           {selectedProduct && (
