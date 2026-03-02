@@ -131,6 +131,39 @@ const Products = () => {
         </div>
       </section>
 
+      {/* Product Detail Dialog */}
+      <Dialog open={!!selectedProduct} onOpenChange={(open) => !open && setSelectedProduct(null)}>
+        <DialogContent className="bg-cigar-dark border-cigar-gold/20 max-w-2xl p-0 overflow-hidden">
+          <DialogTitle className="sr-only">{selectedProduct?.name[language]}</DialogTitle>
+          <DialogDescription className="sr-only">{selectedProduct?.description[language]}</DialogDescription>
+          {selectedProduct && (
+            <div className="flex flex-col">
+              <div className="aspect-[4/3] bg-cigar-dark/90 flex items-center justify-center p-8">
+                <img
+                  src={selectedProduct.image}
+                  alt={selectedProduct.name[language]}
+                  className="w-full h-full object-contain"
+                />
+              </div>
+              <div className="p-6 space-y-3">
+                <p className="text-cigar-gold/60 text-xs tracking-wider uppercase font-body">
+                  {selectedProduct.origin} · {selectedProduct.strength}
+                </p>
+                <h3 className="font-serif text-2xl text-cigar-cream">
+                  {selectedProduct.name[language]}
+                </h3>
+                <p className="text-cigar-cream/70 text-sm font-body leading-relaxed">
+                  {selectedProduct.description[language]}
+                </p>
+                <p className="text-cigar-gold font-serif text-xl pt-2">
+                  {selectedProduct.price}
+                </p>
+              </div>
+            </div>
+          )}
+        </DialogContent>
+      </Dialog>
+
       <Footer />
     </div>
   );
