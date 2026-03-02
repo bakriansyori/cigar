@@ -18,6 +18,7 @@ const fadeUp = {
 
 const Products = () => {
   const [hoveredProduct, setHoveredProduct] = useState<Product | null>(null);
+  const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
   const { t, language } = useLanguage();
 
   return (
