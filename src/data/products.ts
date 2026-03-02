@@ -148,7 +148,7 @@ export const products: Product[] = [
       ar: "كلاسي سيجار",
     },
     description: {
-      id: "Classy Cigar Parejo; harmoni aroma tembakau Kuba dalam ukuran 124mm dan ring 50 yang prestisius. Tersaji sempurna dalam kemasan kotak eksklusif berisi 3 tube, menjamin kualitas dan aroma tetap terjaga hingga ke tangan Anda.",
+      id: "Classy Cigar Parejo, harmoni aroma tembakau Kuba dalam ukuran 124mm dan ring 50 yang prestisius. Tersaji sempurna dalam kemasan kotak eksklusif berisi 3 tube, menjamin kualitas dan aroma tetap terjaga hingga ke tangan Anda.",
       en: "Classy Cigar Parejo — a harmonious blend of Cuban tobacco aromas in a prestigious 124mm size with a ring gauge of 50. Perfectly presented in an exclusive box of 3 tubes, guaranteeing quality and aroma are preserved until they reach your hands.",
       ar: "كلاسي سيجار باريخو — مزيج متناسق من عطور التبغ الكوبي بحجم مرموق 124 ملم وحلقة 50. يُقدَّم بشكل مثالي في علبة حصرية تحتوي على 3 أنابيب، مما يضمن الحفاظ على الجودة والعطر حتى يصل إلى يديك.",
     },
@@ -199,14 +199,14 @@ export const products: Product[] = [
       ar: "دون أغوستو",
     },
     description: {
-      id: "Premium Parejo Cigar; simfoni cita rasa full body yang kaya dengan nuansa woody, nutty, dan spicy dalam dimensi 140mm yang mengesankan. Dengan ring 54 yang prestisius dan Long Filler tembakau Havana pilihan, cerutu ini menawarkan durasi kenikmatan mendalam hingga 50 menit. Tersaji sempurna dalam pilihan kemasan kotak kayu isi 10, isi 5, atau kemasan tube satuan yang eksklusif, menjamin kualitas dan aroma tetap terjaga hingga ke tangan Anda.",
+      id: "Premium Parejo Cigar, simfoni cita rasa full body yang kaya dengan nuansa woody, nutty, dan spicy dalam dimensi 140mm yang mengesankan. Dengan ring 54 yang prestisius dan Long Filler tembakau Havana pilihan, cerutu ini menawarkan durasi kenikmatan mendalam hingga 50 menit. Tersaji sempurna dalam pilihan kemasan kotak kayu isi 10, isi 5, atau kemasan tube satuan yang eksklusif, menjamin kualitas dan aroma tetap terjaga hingga ke tangan Anda.",
       en: "Don Agusto Paperpack of 3 Tubos; a blend of the finest Havana tobacco tradition and prestigious modern packaging. Each box contains 3 select cigars wrapped in tubes to ensure the quality of flavor remains prime until the very last draw.",
       ar: "دون أغوستو بابيرباك يحتوي على 3 توبوس؛ مزيج بين أفضل تقاليد تبغ هافانا والتعبئة العصرية المرموقة. تحتوي كل علبة على 3 سيجارات مختارة مُغلَّفة في أنابيب لضمان بقاء جودة النكهة في أعلى مستوياتها حتى آخر نفخة.",
     },
     origin: "Havana",
     strength: "Medium-Full",
     price: "Rp 639.000",
-    image: "/images/Don_Agusto.webp",
+    image: "/images/don_agusto.webp",
   },
   {
     id: "12",
