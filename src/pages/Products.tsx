@@ -60,6 +60,7 @@ const Products = () => {
                 className="group relative border border-cigar-gold/10 hover:border-cigar-gold/30 transition-all duration-300 cursor-pointer"
                 onMouseEnter={() => setHoveredProduct(product)}
                 onMouseLeave={() => setHoveredProduct(null)}
+                onClick={() => setSelectedProduct(product)}
               >
                 <div className="aspect-[3/4] bg-cigar-dark/80 flex items-center justify-center overflow-hidden p-4">
                   <img
