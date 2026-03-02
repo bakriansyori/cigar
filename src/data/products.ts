@@ -359,7 +359,7 @@ export const products: Product[] = [
         origin: "Havana",
         strength: "Medium Full",
         price: "Rp 469.000/pack (3 tubes)",
-        image: "/images/BIN_Classy_Cigar.webp",
+        image: "/images/classy_cigar.webp",
     },
     {
         id: "21",
