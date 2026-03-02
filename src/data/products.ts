@@ -403,7 +403,7 @@ export const products: Product[] = [
             ar: "",
         },
         description: {
-            id: "Premium Parejo Cigar; simfoni rasa full body dengan nuansa woody, kopi, dan earthy yang mendalam dalam dimensi 118mm dan ring 52 yang dominan. Menggunakan Long Filler Havana Tobacco (Seco dan Ligero) dengan kekuatan 7/9, cerutu ini menawarkan durasi kenikmatan hingga 38 menit. Tersaji eksklusif dalam kotak kayu berisi 6 batang, menghadirkan kualitas premium bagi penikmat cerutu yang mendambakan karakter kuat dan mantap.",
+            id: "Premium Parejo Cigar, simfoni rasa full body dengan nuansa woody, kopi, dan earthy yang mendalam dalam dimensi 118mm dan ring 52 yang dominan. Menggunakan Long Filler Havana Tobacco (Seco dan Ligero) dengan kekuatan 7/9, cerutu ini menawarkan durasi kenikmatan hingga 38 menit. Tersaji eksklusif dalam kotak kayu berisi 6 batang, menghadirkan kualitas premium bagi penikmat cerutu yang mendambakan karakter kuat dan mantap.",
             en: "",
             ar: "",
         },
@@ -437,7 +437,7 @@ export const products: Product[] = [
             ar: "",
         },
         description: {
-            id: "Premium Pyramid Cigar; kemewahan cita rasa full body dengan nuansa woody, creamy, serta sentuhan earthy dan spicy yang kompleks dalam ukuran 101mm. Dengan bentuk Pyramid yang artistik dan ring gauge 50, cerutu ini menggunakan wrapper Maduro Havana pilihan dengan kekuatan 7/9 untuk durasi kenikmatan 35 menit. Tersaji istimewa dalam kemasan kotak kertas eksklusif isi 3 batang, menghadirkan standar tertinggi bagi penikmat cerutu premium.",
+            id: "Premium Pyramid Cigar, kemewahan cita rasa full body dengan nuansa woody, creamy, serta sentuhan earthy dan spicy yang kompleks dalam ukuran 101mm. Dengan bentuk Pyramid yang artistik dan ring gauge 50, cerutu ini menggunakan wrapper Maduro Havana pilihan dengan kekuatan 7/9 untuk durasi kenikmatan 35 menit. Tersaji istimewa dalam kemasan kotak kertas eksklusif isi 3 batang, menghadirkan standar tertinggi bagi penikmat cerutu premium.",
             en: "",
             ar: "",
         },
