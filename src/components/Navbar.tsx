@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled || !isHome ? "bg-cigar-dark/95 backdrop-blur-md shadow-lg" : "bg-transparent"}`}>
       <div className="container mx-auto flex items-center justify-between px-6 py-4">
-        <Link to="/" className="text-2xl tracking-widest text-cigar-gold" style={{ fontFamily: "'Cirkus', serif" }}>ADWAYA PRANA</Link>
+        <Link to="/" className="text-3xl md:text-4xl tracking-widest text-cigar-gold" style={{ fontFamily: "'Cirkus', serif" }}>ADWAYA PRANA</Link>
 
         {/* Desktop */}
         <div className="hidden md:flex items-center gap-8">
