@@ -36,7 +36,7 @@ const Footer = () => {
               {t("footer.contact")}
             </h4>
             <div className="space-y-2 text-cigar-cream/60 text-sm font-body">
-              <p>email : pranaadwaya@gmail.com</p>
+              <a href="mailto:pranaadwaya@gmail.com" className="hover:text-cigar-gold transition-colors">email : pranaadwaya@gmail.com</a>
               <a href="https://wa.me/6281287098907" target="_blank" rel="noopener noreferrer" className="hover:text-cigar-gold transition-colors">Whatsapp : +62 812 8709 8907</a>
               <p>Jakarta, Indonesia</p>
             </div>
