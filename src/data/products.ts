@@ -463,4 +463,21 @@ export const products: Product[] = [
         price: "Contact us for special price",
         image: "/images/Exclusive_Gift.webp",
     },
+  {
+        id: "27",
+        name: {
+            id: "Bulk quantity",
+            en: "Partnership & Exclusive Corporate Offers"",
+            ar: "",
+        },
+        description: {
+            id: "Untuk pembelian dalam jumlah banyak atau kebutuhan korporasi, kami menyediakan layanan khusus dengan harga kompetitif. Silakan hubungi tim kami melalui WhatsApp yang tertera di halaman ini untuk konsultasi cepat, atau kirimkan permintaan Quotation (Penawaran Harga) resmi melalui Email kami. Kami siap melayani kebutuhan stok bisnis atau acara spesial Anda dengan pelayanan profesional.",
+            en: "",
+            ar: "",
+        },
+        origin: "As Request",
+        strength: "As Request",
+        price: "Contact us for special price",
+        image: "/images/Exclusive_Gift.webp",
+    },
 ];
