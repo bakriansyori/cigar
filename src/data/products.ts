@@ -467,7 +467,7 @@ export const products: Product[] = [
         id: "27",
         name: {
             id: "Bulk quantity",
-            en: "Partnership & Exclusive Corporate Offers"",
+            en: "Partnership & Exclusive Corporate Offers",
             ar: "",
         },
         description: {
