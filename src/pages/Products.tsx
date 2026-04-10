@@ -85,8 +85,8 @@ const Products = () => {
                     {product.description[language]}
                   </p>
                   <div className="flex items-center justify-between">
-                    <p className="text-cigar-gold font-serif text-lg">
-                      {product.price}
+                    <p className="text-cigar-gold font-serif text-sm">
+                      Hubungi kami untuk pemesanan
                     </p>
                   </div>
                 </div>
@@ -118,8 +118,8 @@ const Products = () => {
                         <p className="text-cigar-cream/70 text-sm font-body leading-relaxed mb-4">
                           {product.description[language]}
                         </p>
-                        <p className="text-cigar-gold font-serif text-lg">
-                          {product.price}
+                        <p className="text-cigar-gold font-serif text-sm">
+                          Hubungi kami untuk pemesanan
                         </p>
                       </div>
                     </motion.div>
@@ -155,8 +155,8 @@ const Products = () => {
                 <p className="text-cigar-cream/70 text-sm font-body leading-relaxed">
                   {selectedProduct.description[language]}
                 </p>
-                <p className="text-cigar-gold font-serif text-xl pt-2">
-                  {selectedProduct.price}
+                <p className="text-cigar-gold font-serif text-base pt-2">
+                  Hubungi kami untuk pemesanan
                 </p>
               </div>
             </div>
