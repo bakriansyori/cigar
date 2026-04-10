@@ -35,7 +35,7 @@ export const products: Product[] = [
         },
         origin: "Havana",
         strength: "Medium",
-        #price: "Rp 1.499.000",
+        price: "Rp 1.499.000",
         image: "/images/Pilar_Gold_Exclusive_Perla.webp",
     },
     {
