@@ -123,7 +123,7 @@ const Index = () => {
                   </p>
                   <h3 className="font-serif text-xl text-cigar-cream mb-2">{product.name[language]}</h3>
                   <p className="text-cigar-cream/50 text-sm font-body mb-4 line-clamp-2">{product.description[language]}</p>
-                  <p className="text-cigar-gold font-serif text-lg">{product.price}</p>
+                  <a href="https://wa.me/6281287098907" target="_blank" rel="noopener noreferrer" className="text-cigar-gold font-serif text-sm hover:text-cigar-cream transition-colors">{t("featured.contact")}</a>
                 </div>
               </motion.div>
             ))}

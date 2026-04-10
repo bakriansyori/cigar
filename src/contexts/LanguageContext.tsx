@@ -42,6 +42,7 @@ const translations: Record<Language, Record<string, string>> = {
     // Index - Featured
     "featured.label": "Pilihan Terbaik",
     "featured.title": "Produk Unggulan",
+    "featured.contact": "Hubungi kami untuk pemesanan",
     "featured.cta": "Lihat Semua Koleksi",
 
     // Products page
@@ -89,6 +90,7 @@ const translations: Record<Language, Record<string, string>> = {
     // Index - Featured
     "featured.label": "Top Picks",
     "featured.title": "Featured Products",
+    "featured.contact": "Contact us to order",
     "featured.cta": "View All Collection",
 
     // Products page
@@ -136,6 +138,7 @@ const translations: Record<Language, Record<string, string>> = {
     // Index - Featured
     "featured.label": "أفضل الاختيارات",
     "featured.title": "المنتجات المميزة",
+    "featured.contact": "تواصل معنا للطلب",
     "featured.cta": "عرض كامل المجموعة",
 
     // Products page
