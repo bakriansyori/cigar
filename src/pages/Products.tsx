@@ -86,7 +86,7 @@ const Products = () => {
                   </p>
                   <div className="flex items-center justify-between">
                     <a href="https://wa.me/6281287098907" target="_blank" rel="noopener noreferrer" className="text-cigar-gold font-serif text-sm hover:text-cigar-cream transition-colors">
-                      Hubungi kami untuk pemesanan
+                      {t("products.contact")}
                     </a>
                   </div>
                 </div>
@@ -119,7 +119,7 @@ const Products = () => {
                           {product.description[language]}
                         </p>
                         <a href="https://wa.me/6281287098907" target="_blank" rel="noopener noreferrer" className="text-cigar-gold font-serif text-sm hover:text-cigar-cream transition-colors">
-                          Hubungi kami untuk pemesanan
+                          {t("products.contact")}
                         </a>
                       </div>
                     </motion.div>
@@ -156,7 +156,7 @@ const Products = () => {
                   {selectedProduct.description[language]}
                 </p>
                 <a href="https://wa.me/6281287098907" target="_blank" rel="noopener noreferrer" className="text-cigar-gold font-serif text-base pt-2 hover:text-cigar-cream transition-colors inline-block">
-                  Hubungi kami untuk pemesanan
+                  {t("products.contact")}
                 </a>
               </div>
             </div>
