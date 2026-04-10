@@ -49,6 +49,7 @@ const translations: Record<Language, Record<string, string>> = {
     "products.label": "Koleksi Lengkap",
     "products.title": "Koleksi Kami",
     "products.subtitle": "Temukan cerutu pilihan terbaik dari berbagai penjuru dunia, masing-masing dengan karakter dan cita rasa yang unik.",
+    "products.contact": "Hubungi kami untuk pemesanan",
 
     // Footer
     "footer.tagline": "Menghadirkan cerutu pilihan terbaik, untuk para penikmat sejati.",
@@ -97,6 +98,7 @@ const translations: Record<Language, Record<string, string>> = {
     "products.label": "Full Collection",
     "products.title": "Our Collection",
     "products.subtitle": "Discover the finest cigars from around the world, each with its own unique character and flavor.",
+    "products.contact": "Contact us to order",
 
     // Footer
     "footer.tagline": "Bringing you the finest cigars, for true connoisseurs.",
@@ -145,6 +147,7 @@ const translations: Record<Language, Record<string, string>> = {
     "products.label": "المجموعة الكاملة",
     "products.title": "مجموعتنا",
     "products.subtitle": "اكتشف أفضل أنواع السيجار من جميع أنحاء العالم، كل منها بشخصيته ونكهته الفريدة.",
+    "products.contact": "تواصل معنا للطلب",
 
     // Footer
     "footer.tagline": "نقدم لكم أفضل السيجار، لعشاق الجودة الحقيقيين.",
