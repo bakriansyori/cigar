@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { products } from "@/data/products";
 import { useLanguage } from "@/contexts/LanguageContext";
+import logoPilar from "@/assets/logo-pilar.png";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -30,6 +31,11 @@ const Index = () => {
 
         <div className="relative z-10 text-center px-6 max-w-3xl mx-auto">
           <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.8 }}>
+            <img
+              src={logoPilar}
+              alt="Pilar Logo"
+              className="w-32 md:w-40 h-auto mx-auto mb-8"
+            />
             <p className="text-cigar-gold/80 tracking-[0.3em] text-xs uppercase mb-6 font-body">
               {t("hero.label")}
             </p>
